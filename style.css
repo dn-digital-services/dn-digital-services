@@ -16,7 +16,7 @@ header{
 position:sticky;
 top:0;
 background:#fff;
-padding:15px 8%;
+padding:12px 8%;
 display:flex;
 justify-content:space-between;
 align-items:center;
@@ -31,9 +31,10 @@ color:#0d6efd;
 }
 
 .logo img{
-height:45px;
+height:80px;
 width:auto;
 display:block;
+margin:auto;
 }
 
 nav a{
