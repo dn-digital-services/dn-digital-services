@@ -13,15 +13,13 @@ overflow-x:hidden;
 }
 
 header{
-position:sticky;
-top:0;
-background:#fff;
-padding:12px 8%;
-display:flex;
-justify-content:space-between;
-align-items:center;
-box-shadow:0 2px 15px rgba(0,0,0,.08);
-z-index:1000;
+    position:sticky;
+    top:0;
+    background:#fff;
+    padding:10px 5%;
+    text-align:center;
+    box-shadow:0 2px 15px rgba(0,0,0,.08);
+    z-index:1000;
 }
 
 .logo{
@@ -31,12 +29,14 @@ color:#0d6efd;
 }
 
 .logo img{
-height:120px;
-width:auto;
-display:block;
-margin:auto;
+    height:140px;
+    width:auto;
+    display:block;
+    margin:0 auto;
 }
-
+nav{
+    margin-top:-10px;
+}
 nav a{
 text-decoration:none;
 margin-left:20px;
