@@ -31,8 +31,9 @@ color:#0d6efd;
 }
 
 .logo img{
-height:60px;
+height:45px;
 width:auto;
+display:block;
 }
 
 nav a{
