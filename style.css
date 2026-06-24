@@ -31,7 +31,7 @@ color:#0d6efd;
 }
 
 .logo img{
-    height:70px;
+    height:90px;
     width:auto;
 }
 
@@ -201,8 +201,7 @@ z-index:999;
 @media(max-width:768px){
 
 header{
-flex-direction:column;
-gap:15px;
+flex-direction:row;
 }
 
 .hero{
