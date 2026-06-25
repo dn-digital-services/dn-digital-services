@@ -241,7 +241,7 @@ font-size:32px;
 /* ===== Premium Footer ===== */
 
 .footer{
-background:#163a68;
+background:linear-gradient(135deg,#1e90ff,#0d6efd);
 color:#d8e3f3;
 padding:70px 8% 20px;
 }
