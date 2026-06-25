@@ -332,9 +332,9 @@ color:#b8c8dd;
 
 .footer-logo{
     width:180px;
-    margin-bottom:10px;
+    display:block;
+    margin:0 0 15px 0;
 }
-
 .footer-container{
 gap:30px;
 }
