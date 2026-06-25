@@ -247,16 +247,20 @@ padding:70px 8% 20px;
 }
 
 .footer-container{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
-gap:40px;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+    gap:40px;
+    text-align:left;
+    align-items:start;
 }
 
 .footer-logo{
 width:180px;
 margin-bottom:20px;
 }
-
+.footer-box{
+    text-align:left;
+}
 .footer-box p{
 line-height:1.8;
 margin-bottom:15px;
@@ -266,6 +270,7 @@ margin-bottom:15px;
 color:#fff;
 margin-bottom:20px;
 font-size:24px;
+text-align:left;
 }
 
 .footer-box a{
