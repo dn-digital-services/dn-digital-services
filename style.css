@@ -206,8 +206,10 @@ flex-direction:row;
 }
 
 .hero{
-flex-direction:column;
-text-align:center;
+    flex-direction:column;
+    text-align:center;
+    gap:30px;
+    padding:50px 20px;
 }
 
 .hero-text h1{
