@@ -625,3 +625,65 @@ justify-content:center;
 }
 
 }
+
+/* ===== Stats Section ===== */
+
+.stats-section{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:30px;
+    background:#eef5ff;
+    padding:50px 25px;
+}
+
+.stat-card{
+    text-align:center;
+}
+
+.stat-icon{
+    width:80px;
+    height:80px;
+    margin:0 auto 20px;
+    border-radius:22px;
+    background:#e3ebf7;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:34px;
+    color:#183b72;
+}
+
+.stat-card h2{
+    font-size:56px;
+    font-weight:800;
+    color:#183b72;
+    margin-bottom:8px;
+}
+
+.stat-card p{
+    font-size:20px;
+    color:#6b7280;
+}
+
+@media(max-width:768px){
+
+.stats-section{
+    gap:35px 20px;
+    padding:45px 20px;
+}
+
+.stat-icon{
+    width:70px;
+    height:70px;
+    font-size:28px;
+}
+
+.stat-card h2{
+    font-size:48px;
+}
+
+.stat-card p{
+    font-size:18px;
+}
+
+}
