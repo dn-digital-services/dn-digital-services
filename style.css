@@ -482,18 +482,41 @@ color:#183b72;
 
 .hero-buttons{
 display:flex;
-gap:20px;
+flex-direction:column;
+gap:18px;
 margin-top:35px;
-flex-wrap:wrap;
+width:100%;
 }
 
-.btn-outline{
+.hero-buttons .btn,
+.hero-buttons .btn-outline{
+display:flex;
+align-items:center;
+justify-content:center;
+width:100%;
+padding:18px 25px;
+border-radius:18px;
+font-size:20px;
+font-weight:700;
+text-decoration:none;
+}
+
+.hero-buttons .btn{
+background:#183b72;
+color:#fff;
+}
+
+.hero-buttons .btn:hover{
+background:#102c58;
+}
+
+.hero-buttons .btn-outline{
 background:#fff;
 color:#183b72;
 border:2px solid #dbe4f3;
 }
 
-.btn-outline:hover{
+.hero-buttons .btn-outline:hover{
 background:#183b72;
 color:#fff;
 }
