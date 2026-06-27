@@ -348,7 +348,12 @@ gap:30px;
     line-height:1.8;
     margin:0 0 15px 0;
     max-width:none;
+    text-align:left;
 }
+    
+    
+    
+
 
 .social-icons a:hover{
     background:#0d6efd;
