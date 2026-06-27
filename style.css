@@ -345,9 +345,9 @@ gap:30px;
 }
 
 .footer-box p{
-    max-width:600px;
-    margin:10px auto;
     line-height:1.8;
+    margin:0 0 15px 0;
+    max-width:none;
 }
 
 .social-icons a:hover{
