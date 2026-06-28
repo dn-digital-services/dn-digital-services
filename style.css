@@ -677,3 +677,23 @@ justify-content:center;
     color:#6b7280;
 }
 
+.founder-info{
+    margin-top:10px;
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+}
+
+.founder-title{
+    font-size:15px;
+    color:#d8e3f3;
+    margin-bottom:4px;
+}
+
+.founder-name{
+    font-family:'Great Vibes',cursive;
+    font-size:28px;
+    color:#fff;
+    line-height:1.2;
+    text-align:left;
+}
